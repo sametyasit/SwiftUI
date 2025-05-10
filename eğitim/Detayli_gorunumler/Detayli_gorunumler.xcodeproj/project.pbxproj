@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		11351FE02DCF89C6005FCFC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11351FDC2DCF89C6005FCFC6 /* ContentView.swift */; };
+		11351FE12DCF89C6005FCFC6 /* Detayli_gorunumlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11351FDD2DCF89C6005FCFC6 /* Detayli_gorunumlerApp.swift */; };
+		11351FE22DCF89C6005FCFC6 /* OzelGorselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11351FDE2DCF89C6005FCFC6 /* OzelGorselView.swift */; };
+		11351FE32DCF89C6005FCFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11351FDB2DCF89C6005FCFC6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		11351FDB2DCF89C6005FCFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11351FDC2DCF89C6005FCFC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11351FDD2DCF89C6005FCFC6 /* Detayli_gorunumlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detayli_gorunumlerApp.swift; sourceTree = "<group>"; };
+		11351FDE2DCF89C6005FCFC6 /* OzelGorselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelGorselView.swift; sourceTree = "<group>"; };
 		11BB09702DC656AB00FB94F0 /* Detayli_gorunumler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Detayli_gorunumler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		11BB09722DC656AB00FB94F0 /* Detayli_gorunumler */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Detayli_gorunumler;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		11BB096D2DC656AB00FB94F0 /* Frameworks */ = {
@@ -29,10 +32,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11351FDF2DCF89C6005FCFC6 /* Detayli_gorunumler */ = {
+			isa = PBXGroup;
+			children = (
+				11351FDB2DCF89C6005FCFC6 /* Assets.xcassets */,
+				11351FDE2DCF89C6005FCFC6 /* OzelGorselView.swift */,
+				11351FDC2DCF89C6005FCFC6 /* ContentView.swift */,
+				11351FDD2DCF89C6005FCFC6 /* Detayli_gorunumlerApp.swift */,
+			);
+			path = Detayli_gorunumler;
+			sourceTree = "<group>";
+		};
 		11BB09672DC656AB00FB94F0 = {
 			isa = PBXGroup;
 			children = (
-				11BB09722DC656AB00FB94F0 /* Detayli_gorunumler */,
+				11351FDF2DCF89C6005FCFC6 /* Detayli_gorunumler */,
 				11BB09712DC656AB00FB94F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +73,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				11BB09722DC656AB00FB94F0 /* Detayli_gorunumler */,
 			);
 			name = Detayli_gorunumler;
 			packageProductDependencies = (
@@ -109,6 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11351FE32DCF89C6005FCFC6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11351FE02DCF89C6005FCFC6 /* ContentView.swift in Sources */,
+				11351FE12DCF89C6005FCFC6 /* Detayli_gorunumlerApp.swift in Sources */,
+				11351FE22DCF89C6005FCFC6 /* OzelGorselView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
